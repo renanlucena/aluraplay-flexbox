@@ -103,21 +103,13 @@
         gap: 15px;
     }
 
-    .menu__lista:nth-child(3){
+    .menu__lista:nth-child(3),
+    .menu__lista:nth-child(4){
         flex-direction: column-reverse;
     }
 
-    .jogos{
-        order: 3;
-    }
-    .filmes{
-        order: 3;
-    }
-    .premium{
-        order:1;
-    }
-    .maispagina{
-        order:4;
+        .maispagina{
+        order: -1;
     }
 
 
