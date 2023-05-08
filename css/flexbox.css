@@ -61,8 +61,23 @@
     .cabecalho__pesquisar__item{
         display: block;
     }
+    .menu__container {
+        left: 0%;
+        height: auto;
+        width: 74px;
+        top: 80px;
+    }
 
     .rodape__container{
         justify-content: space-between;
     }
+
+    .menu__lista {
+        flex-direction: column;
+        justify-content: flex-start;
+        padding-top: 15px;
+        gap: 33px;
+    }
+
+
 }
